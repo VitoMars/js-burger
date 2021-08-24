@@ -1,23 +1,31 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-body {
-  background-color: #fff5e2;
+.bg-sand {
+   background-color: #fff5e2;
 }
 
 .half-container {
-  width: 50%;
+   width: 50%;
 }
 
 .home-bar {
-  position: relative;
-  background-color: #fdbb40;
+   position: relative;
+   background-color: #fdbb40;
 }
 
 .burger {
-  position: absolute;
-  left: 80%;
+   position: absolute;
+   left: 85%;
+}
+
+main {
+   height: 70vh;
+}
+
+main img {
+   width: 50px;
 }
