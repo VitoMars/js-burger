@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5e2;
+}
+
+.half-container {
+  width: 50%;
+}
+
+.home-bar {
+  position: relative;
+  background-color: #fdbb40;
+}
+
+.burger {
+  position: absolute;
+  left: 80%;
+}
