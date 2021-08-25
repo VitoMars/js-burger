@@ -20,12 +20,12 @@
             <div
                class="
                   home-bar
+                  burger-color
                   d-flex
                   align-items-center
-                  container
                   h1
                   fw-bold
-                  p-5
+                  px-5
                   m-0
                "
             >
@@ -37,8 +37,12 @@
          </head>
 
          <!-- Corpo -->
-         <main class="bg-white">
-            <div class="h3 px-5 py-4">Mio Nome</div>
+         <main class="bg-white py-5">
+            <input
+               class="burger-name form-control form-control-lg h3 mx-5"
+               type="text"
+               placeholder="Name Your Burger"
+            />
             <div class="h4 px-5 py-4">Ingredients</div>
 
             <!-- Ingredienti -->
@@ -56,7 +60,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -72,7 +79,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -92,7 +102,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -108,7 +121,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -128,7 +144,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -144,7 +163,10 @@
                         value=""
                         id="flexCheckDefault"
                      />
-                     <label class="form-check-label" for="flexCheckDefault">
+                     <label
+                        class="form-check-label text-porpora"
+                        for="flexCheckDefault"
+                     >
                         add
                      </label>
                   </div>
@@ -164,12 +186,27 @@
             </div>
 
             <div class="d-flex justify-content-center">
-               <button type="button" class="btn btn-warning">Calculate</button>
+               <button type="button" class="btn burger-color fw-bold">
+                  Calculate
+               </button>
             </div>
          </main>
 
          <!-- Footer -->
-         <footer></footer>
+         <footer
+            class="
+               d-flex
+               align-items-center
+               justify-content-between
+               h2
+               text-white
+               px-5
+               m-0
+            "
+         >
+            <div>Your Price</div>
+            <label for="">50€</label>
+         </footer>
       </div>
 
       <script src="js/main.js"></script>

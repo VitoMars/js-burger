@@ -14,6 +14,10 @@
 
 .home-bar {
    position: relative;
+   height: 15vh;
+}
+
+.burger-color {
    background-color: #fdbb40;
 }
 
@@ -22,10 +26,30 @@
    left: 85%;
 }
 
+.burger-name {
+   width: 30%;
+}
+
+.text-porpora {
+   color: #d33359;
+}
+
 main {
-   height: 70vh;
+   height: 75vh;
 }
 
 main img {
    width: 50px;
+}
+
+footer {
+   height: 10vh;
+   background-color: #d33359;
+}
+
+.form-check-input,
+.form-check-input:checked {
+   /* color: #d33359; */
+   background-color: #d33359;
+   border: 1px solid rgba(0, 0, 0, 0.25);
 }
