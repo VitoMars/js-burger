@@ -163,12 +163,17 @@
                      class="form-control bg-sand"
                      placeholder="12345ABCD"
                      aria-describedby="basic-addon1"
+                     id="code"
                   />
                </div>
             </div>
 
             <div class="d-flex justify-content-center">
-               <button type="button" class="btn burger-color fw-bold">
+               <button
+                  type="button"
+                  class="btn burger-color fw-bold"
+                  onclick="calcBurger()"
+               >
                   Calculate
                </button>
             </div>
@@ -187,7 +192,8 @@
             "
          >
             <div>Your Price</div>
-            <label for="">50€</label>
+            <label id="price">0€</label>
+            <!-- <input type="text" class="form-control" id="price" value="" /> -->
          </footer>
       </div>
 
